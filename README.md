@@ -1,8 +1,8 @@
-# 📦 AJIO ERP Stock Analyzer
+# AJIO ERP Stock Analyzer
 
 A powerful and intuitive Streamlit application designed to help logistics and operations teams analyze ERP order processing logs. It specifically focuses on extracting critical data from "Negative Stock" errors and success responses.
 
-## 🚀 Features
+## Features
 
 - **Automated Extraction**: Pulls `parentOrderCode`, `article_code`, and `warehouse` details directly from raw ERP payloads and error messages.
 - **Smart Logic**:
@@ -13,14 +13,14 @@ A powerful and intuitive Streamlit application designed to help logistics and op
 - **Interactive Insights**: View distribution charts and a list of top failing SKUs at a glance.
 - **Export**: Download the cleaned and processed data as a CSV for further reporting.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python**: Core logic and data processing.
 - **Streamlit**: Modern UI and web framework.
 - **Pandas**: Efficient data manipulation.
 - **OpenPyxl**: Excel file support for `.xlsx` processing.
 
-## 📥 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -38,7 +38,7 @@ A powerful and intuitive Streamlit application designed to help logistics and op
    streamlit run app.py
    ```
 
-## 📄 Usage
+## Usage
 
 1. Prepare an Excel file (`.xlsx`) containing at least the following columns: `payload`, `erp_status`, `erp_error`, and `erp_response`.
 2. Upload the file through the sidebar.
